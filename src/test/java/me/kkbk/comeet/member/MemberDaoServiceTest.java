@@ -22,6 +22,7 @@ class MemberDaoServiceTest {
 
         //when
         List<Member> members = service.findAll();
+        System.out.println(members.get(1));
 
         //then
         Assertions.assertThat(members.size()).isEqualTo(3);
