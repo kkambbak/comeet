@@ -18,4 +18,5 @@ public class HomeController {
     public String showTime(){
         return "현재 서버시간은 " + new Date() + " 입니다.";
     }
+
 }
